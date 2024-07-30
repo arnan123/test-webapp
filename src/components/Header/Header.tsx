@@ -23,7 +23,7 @@ function HeaderComponent() {
         <p>Repair Request</p>
         <p>Apply Now</p>
       </div>
-      <div className="flex gap-2 text-[24px]">
+      <div className="flex gap-2 text-[24px] hover:animate-bounce cursor-pointer">
         <TelephoneInbound />
         <p>(330) 600-4556 </p>
       </div>

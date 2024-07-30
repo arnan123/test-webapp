@@ -32,10 +32,50 @@ const ImageBanner = () => {
         </div>
       </div>
       <div className="flex items-center justify-evenly -mt-[13.3rem] relative z-30">
-        <ImageBannerCard bg="#1C75BC" />
-        <ImageBannerCard bg="#194CA0" />
-        <ImageBannerCard bg="#0D2F65" />
-        <ImageBannerCard bg="#222222" />
+        <ImageBannerCard
+          bg="#1C75BC"
+          title=""
+          contents={
+            <>
+              <p>Residential</p>
+              <p>Multi-Family</p>
+              <p>Pricing</p>{" "}
+            </>
+          }
+        />
+        <ImageBannerCard
+          bg="#194CA0"
+          title="SEARCH PROPERTIES"
+          contents={
+            <>
+              <p>Available Rentals</p>
+              <p>Qualification Criteria</p>
+              <p>Resident Benefit Package</p>
+            </>
+          }
+        />
+        <ImageBannerCard
+          bg="#0D2F65"
+          title="CURRENT OWNERS"
+          contents={
+            <>
+              <p>Owner Portal</p>
+              <p>FAQs</p>
+              <p>Guarantees</p>
+            </>
+          }
+        />
+        <ImageBannerCard
+          bg="#222222"
+          title="CURRENT RESIDENTS"
+          contents={
+            <>
+              <p>Tenant Portal</p>
+              <p>FAQs</p>
+              <p>Resources</p>
+            </>
+          }
+        />
       </div>
     </Container>
   );

@@ -33,7 +33,7 @@ const ImageBanner2 = () => {
               Our mission is to help each client achieve their investment goals
               while showing each and every resident the respect and
               responsiveness they deserve. We believe in the good ole-fashioned
-              "Golden Rule" and use it as the standard in every aspect of our
+              `Golden Rule` and use it as the standard in every aspect of our
               business.
             </p>
           </div>

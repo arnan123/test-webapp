@@ -13,7 +13,9 @@ function NavbarComponent() {
           <Image src={logo} alt="Logo" className="w-[156px] my-[10px]" />
         </div>
         <div className="flex text-[16px] gap-[50px]">
-          <p>Services</p>
+          <a href="#" className="hover:underline cursor-pointer">
+            Services
+          </a>
           <p>Owners</p>
           <p>Residents</p>
           <p>Properties</p>

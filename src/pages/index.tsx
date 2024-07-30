@@ -47,14 +47,39 @@ export default function Home() {
           DISCOVER WHAT WE DO AS YOUR MASSILLON BASED PROPERTY MANAGER
         </p>
         <div className="flex text-left gap-6 mb-10">
-          <DiscoverCard />
-          <DiscoverCard />
-          <DiscoverCard />
+          <DiscoverCard
+            title="Marketing"
+            content="Our team ensures your property is leased quickly to the best residents through active online and in-person marketing, accurate pricing analysis, and extensive online advertising for maximum visibility and minimal vacancy time."
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
+          <DiscoverCard
+            title="Screening"
+            content="Our thorough screening process ensures the right resident for your property by conducting extensive checks on credit, employment, criminal history, and references while adhering to Ohio and Federal fair housing laws."
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
+          <DiscoverCard
+            title="Rent Collection"
+            content="We ensure timely payments by promptly addressing late fees and facilitating online payments, all while treating tenants with respect and dignity."
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
         </div>
         <div className="flex text-left gap-6">
-          <DiscoverCard />
-          <DiscoverCard />
-          <DiscoverCard />
+          <DiscoverCard
+            title="Maintenance"
+            content="Our maintenance service ensures a well-maintained home, resulting in quicker rentals and happier residents, by using a strategic blend of in-house teams and trusted subcontractors."
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
+          <DiscoverCard
+            title="Financial Reporting"
+            content="We provide detailed monthly financial reports and ongoing expense tracking, accessible anytime via our Owner Portal, along with direct access to our finance team for any inquiries."
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
+          <DiscoverCard
+            title="Eviction Management"
+            content="In the unfortunate event that a tenant needs to be evicted from your rental, we will handle all of the eviction related tasks on your behalf to the extent approved by our attorney.
+            "
+            logo={<RocketTakeoff className="w-6 h-6" />}
+          />
         </div>
       </section>
       <section>

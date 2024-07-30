@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
           Property Manager Website powered by PMW Sitemap Privacy Policy
           Stewardship Realty & Management is committed to ensuring that its
           website is accessible to people with disabilities. All the pages on
-          our website will meet W3C WAI's Web Content Accessibility Guidelines
+          our website will meet W3C WAI`s Web Content Accessibility Guidelines
           2.0, Level A conformance. Any issues should be reported to email here.
           Website Accessibility Policy
         </p>
