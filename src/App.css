@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.imageContainer {
+  position: relative;
+  width: 40vw !important;
+  height: 80vh !important;
+  background-color: red;
+}
+
+.image {
+  width: 40vw !important;
+  height: 80vh !important;
 }
