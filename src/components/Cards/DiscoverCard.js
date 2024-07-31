@@ -1,5 +1,4 @@
 import React from "react";
-import { RocketTakeoff } from "react-bootstrap-icons";
 import { Card } from "react-bootstrap";
 
 function DiscoverCard({ title, content, logo }) {

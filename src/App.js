@@ -14,7 +14,6 @@ import image4 from "../src/public/image-4.png";
 import image6 from "../src/public/image-6.png";
 import NewsCard from "./components/Cards/NewsCard";
 import Footer from "./components/Footer";
-import styles from "./App.css"; // Import your styles
 
 function App() {
   return (

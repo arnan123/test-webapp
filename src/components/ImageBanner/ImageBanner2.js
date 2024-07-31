@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import bannerimage from "../../public/banner-img-2.png";
 import ButtonComponent from "../Button";
 import styles from "../ImageBanner/ImageBanner2.module.css";
